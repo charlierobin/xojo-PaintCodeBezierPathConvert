@@ -30,13 +30,15 @@ In other words, if you are starting with something like this:
 ```
 var path as GraphicsPath = new GraphicsPath()
 
-// “context” below is wrong, I want “path” from declaration above
+// “context” in pasted code below is wrong, I want “path” from Xojo GraphicsPath declaration above
 
 context.moveTo(47.5, 0.25);
 context.bezierCurveTo(47.5, 26.35, 26.35, 47.5, 0.25, 47.5);
 context.bezierCurveTo(-25.85, 47.5, -47, 26.35, -47, 0.25);
 context.bezierCurveTo(-47, -25.85, -25.85, -47, 0.25, -47);
 context.bezierCurveTo(26.35, -47, 47.5, -25.85, 47.5, 0.25);
+
+// back to Xojo code
 
 g.FillPath( path, true )
 ```
