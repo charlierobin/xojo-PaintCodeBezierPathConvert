@@ -47,7 +47,7 @@ g.FillPath( path, true )
 
 <pre><code>var path as GraphicsPath = new GraphicsPath()
 
-<b style=“font-weight:bolder”>path</b>(47.5, 0.25);
+<b style=“font-weight:900”>path</b>(47.5, 0.25);
 context.bezierCurveTo(47.5, 26.35, 26.35, 47.5, 0.25, 47.5);
 context.bezierCurveTo(-25.85, 47.5, -47, 26.35, -47, 0.25);
 context.bezierCurveTo(-47, -25.85, -25.85, -47, 0.25, -47);
