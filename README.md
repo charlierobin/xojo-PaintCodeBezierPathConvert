@@ -1,9 +1,9 @@
 # Convert code copied from PaintCode into Xojo GraphicsPath methods
 
-PaintCode is great, but only outputs point/path info for Objective-C, Swift, and JavaScript. (And perhaps a few others, I forget.)
+PaintCode is great at authoring Bezier paths/shapes etc for use in code, but only outputs point/path info for Objective-C, Swift, and JavaScript. (And perhaps a few others, I forget.)
 
 
-This Xojo IDE script takes a selection pasted from PaintCode (`Web ▸ JavaScript Canvas`) ...
+This Xojo IDE script takes a selection pasted from PaintCode (`Web ▸ JavaScript Canvas` only) ...
 
 ```
 context.moveTo(47.5, 0.25);
