@@ -73,3 +73,8 @@ g.FillPath( path, true )
 **Note that the script only works when the exact lines you need transformed are selected.**
 
 It’s also worth noting that all I was interested in was curves, so there’s no support for straight line segments or anything like that.
+
+The only items that are handled are:
+
+`moveTo` and `bezierCurveTo`
+
