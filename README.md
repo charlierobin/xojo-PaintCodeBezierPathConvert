@@ -45,17 +45,17 @@ g.FillPath( path, true )
 
 ... you rename the **first** `context` to `path` before running the script:
 
-```
+<pre><code>
 var path as GraphicsPath = new GraphicsPath()
 
-**path**(47.5, 0.25);
+<b>path</b>(47.5, 0.25);
 context.bezierCurveTo(47.5, 26.35, 26.35, 47.5, 0.25, 47.5);
 context.bezierCurveTo(-25.85, 47.5, -47, 26.35, -47, 0.25);
 context.bezierCurveTo(-47, -25.85, -25.85, -47, 0.25, -47);
 context.bezierCurveTo(26.35, -47, 47.5, -25.85, 47.5, 0.25);
 
 g.FillPath( path, true )
-```
+</code></pre>
 
 Then, after running the script, the result is:
 
