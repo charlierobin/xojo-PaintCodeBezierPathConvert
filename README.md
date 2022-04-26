@@ -47,7 +47,7 @@ g.FillPath( path, true )
 
 <pre><code>var path as GraphicsPath = new GraphicsPath()
 
-<b><i>path</i></b>(47.5, 0.25);
+<b style=“font-weight:bolder”>path</b>(47.5, 0.25);
 context.bezierCurveTo(47.5, 26.35, 26.35, 47.5, 0.25, 47.5);
 context.bezierCurveTo(-25.85, 47.5, -47, 26.35, -47, 0.25);
 context.bezierCurveTo(-47, -25.85, -25.85, -47, 0.25, -47);
@@ -67,7 +67,7 @@ path.AddCurveToPoint( -25.85, 47.5, -47, 26.35, -47, 0.25 )
 path.AddCurveToPoint( -47, -25.85, -25.85, -47, 0.25, -47 )
 path.AddCurveToPoint( 26.35, -47, 47.5, -25.85, 47.5, 0.25 )
 
-return path
+g.FillPath( path, true )
 ```
 
 **Note that the script only works when the exact lines you need transformed are selected.**
