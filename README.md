@@ -2,6 +2,7 @@
 
 PaintCode is great at authoring Bezier paths/shapes etc for use in code, but only outputs point/path info for Objective-C, Swift, and JavaScript. (And perhaps a few others, I forget.)
 
+[The PaintCode Homepage](https://www.paintcodeapp.com “The PaintCode Homepage”)
 
 This Xojo IDE script takes a selection pasted from PaintCode (`Web ▸ JavaScript Canvas` only) ...
 
