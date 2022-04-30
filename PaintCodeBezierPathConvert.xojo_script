@@ -40,6 +40,10 @@ elseif lines( i ).IndexOf( ".bezierCurveTo" ) > -1 then
 
 lines( i ) = lines( i ).Replace( ".bezierCurveTo", ".AddCurveToPoint" )
 
+else
+
+lines( i ) = ""
+
 end if
 
 lines( i ) = lines( i ).Replace( "(", "( " )
